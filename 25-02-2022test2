@@ -1,0 +1,16 @@
+# write a program  to remove zero elements from the list and find the total
+#count of non zero elements and display them
+
+n=int(input("Enter the n:"))
+l=[]
+t=[]
+for i in range(n):#input
+    x=int(input())    
+    l.append(x)
+for i in range(n):#logic
+    if l[i]==0:
+        continue
+    else:
+        t.append(l[i])
+print("non zero elements",t,"count of non zero elements: ",len(t))
+
