@@ -1,0 +1,9 @@
+# write a python program  to move positive numbers to first and negative numbers to last
+
+n=int(input("Enter the n:"))
+l=[]
+for i in range(n):
+    x=int(input())    
+    l.append(x)
+l.sort(reverse=True)
+print(l)
